@@ -1,0 +1,60 @@
+{
+  "files": [
+    {
+      "path": "actions.json",
+      "bytes": 786,
+      "sha256": "0c54930a1e7a904f7f77b694dcdb4eef6d73c595b5bbb1c2dd3a7edaca8670b4"
+    },
+    {
+      "path": "events.parquet",
+      "bytes": 531063,
+      "sha256": "2b0f6cf074e78d8f1624481cf82d67aa30fd38c97e8aca4d71fa4adf3b3a7bbc",
+      "rows": 1005
+    },
+    {
+      "path": "outages.parquet",
+      "bytes": 3290,
+      "sha256": "cd327c04c095a72f9003079de69f96ebf7cf9ec5308bd2a71f8cd080c08435ee",
+      "rows": 5
+    },
+    {
+      "path": "resources.parquet",
+      "bytes": 2005,
+      "sha256": "042406e6f4c5bbdba85bd845802aacf3e1db97d4532bb767f2002f15e099b584",
+      "rows": 3
+    },
+    {
+      "path": "scenarios.json",
+      "bytes": 481,
+      "sha256": "c53f893fa8b01be88881aae549be7e29d0ddb95c2a25005512688e8d03780ac5"
+    },
+    {
+      "path": "seed.json",
+      "bytes": 216919,
+      "sha256": "72b80d45bc89443ab5364214c7bc44c5fae8768f4ebbff9e8958024befef1e2b"
+    },
+    {
+      "path": "staff_breaks.json",
+      "bytes": 915,
+      "sha256": "e624041095829b2c23aea684762cb9e4a6258a9d324be6e314013bf3813bdc50"
+    },
+    {
+      "path": "staff_roster.parquet",
+      "bytes": 5809,
+      "sha256": "a7db16694e09ea8ee88706013f0247bc56cf5190ea1b19531f6220a560ed01fe",
+      "rows": 8
+    },
+    {
+      "path": "visits.parquet",
+      "bytes": 143777,
+      "sha256": "e54e7ca6018903bdbc397581eae99fd875168b0a0fb539ead1cf4fb7d85945db",
+      "rows": 364
+    },
+    {
+      "path": "windows.parquet",
+      "bytes": 2469,
+      "sha256": "b6d62aa5ec1e1521f8759fc1244ada6dee225d63a88a611cbb3021b49d8d49dd",
+      "rows": 4
+    }
+  ]
+}

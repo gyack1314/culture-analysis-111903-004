@@ -1,0 +1,35 @@
+[
+  {
+    "id": "baseline",
+    "servers": [
+      "A1",
+      "B1"
+    ],
+    "reassign": []
+  },
+  {
+    "id": "add-A2-without-staff",
+    "servers": [
+      "A1",
+      "A2",
+      "B1"
+    ],
+    "reassign": []
+  },
+  {
+    "id": "borrow-G2",
+    "servers": [
+      "A1",
+      "A2",
+      "B1"
+    ],
+    "reassign": [
+      {
+        "staff": "G2",
+        "queue": "Q-A",
+        "start": "12:00",
+        "end": "14:00"
+      }
+    ]
+  }
+]

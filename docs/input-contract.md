@@ -1,0 +1,7 @@
+# 合成分析资料契约
+
+所有机构、企业、受访者、交易和事件均为本地合成，不来自新闻所涉真实主体，不声称新闻发生过这些分析问题。
+
+seed.json与同名Parquet是相同原始值的两种载体；actions.json列尚未应用的后续输入动作。inventory.json只记录原件物理摘要和行数，不提供分析结论。时间均含时区或明确日期，金钱字段minor以CNY分计，空值保留未知含义。已有代码只做物理完整性检查，没有估计、预测、方案求解或产品发布功能。
+
+visits的episode标识一次排队，visitor可多次出现；events的event_id用于重传去重，kind为join/start/finish/abandon/pause/resume。观察时间窗外不补全等待结果，窗口结束仍未start或finish者保留删失状态。resources给出server及required_skill，staff_roster以左闭右开区间声明可提供技能及simultaneous上限，休息无服务能力。outages作用于工位，不等于人员离岗。scenarios只改变公开资源时段或开放窗口，不改变访客到达记录；应从数据估计或说明未识别的放弃和服务分布。train_windows与validation_windows不交叠，后者不能用于调参数后再当独立验证。

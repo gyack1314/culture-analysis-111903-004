@@ -1,0 +1,38 @@
+[
+  {
+    "step": 1,
+    "op": "join_late",
+    "episode": "late-wait",
+    "visitor": "late-visitor",
+    "queue": "Q-A",
+    "at": "2026-10-04T17:54:00+08:00"
+  },
+  {
+    "step": 2,
+    "op": "extend_observation",
+    "queue": "Q-A",
+    "end": "2026-10-04T19:00:00+08:00"
+  },
+  {
+    "step": 3,
+    "op": "event_append",
+    "row": {
+      "event_id": "resume-after-close",
+      "episode": "3-Q-A-open-service",
+      "at": "2026-10-04T18:05:00+08:00",
+      "kind": "resume",
+      "server": "A1"
+    }
+  },
+  {
+    "step": 4,
+    "op": "event_append",
+    "row": {
+      "event_id": "finish-after-close",
+      "episode": "3-Q-A-open-service",
+      "at": "2026-10-04T18:10:00+08:00",
+      "kind": "finish",
+      "server": "A1"
+    }
+  }
+]
