@@ -30,8 +30,8 @@
     },
     {
       "path": "seed.json",
-      "bytes": 216919,
-      "sha256": "72b80d45bc89443ab5364214c7bc44c5fae8768f4ebbff9e8958024befef1e2b"
+      "bytes": 218367,
+      "sha256": "8be1dd06d5c3d67a4b1c264504a1d6dc43a54dfe9ef8081cf448398ecc015ed0"
     },
     {
       "path": "staff_breaks.json",
@@ -46,8 +46,8 @@
     },
     {
       "path": "visits.parquet",
-      "bytes": 143777,
-      "sha256": "e54e7ca6018903bdbc397581eae99fd875168b0a0fb539ead1cf4fb7d85945db",
+      "bytes": 147324,
+      "sha256": "d6a22285fb65c53ca285e240574872c2899a74c3defbaf732ef877509749ae2a",
       "rows": 364
     },
     {
